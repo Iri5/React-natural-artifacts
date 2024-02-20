@@ -1,0 +1,13 @@
+.header{
+    height: 60px;
+    background-color: pink;
+    
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1240px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
