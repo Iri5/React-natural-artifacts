@@ -1,13 +1,14 @@
 .header{
     height: 60px;
-    background-color: pink;
-    
+    background-color: #1D2F30;
 }
 .wrapper{
     margin: 0 auto;
-    max-width: 1240px;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 100%;
+    max-width: 1210px;
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr 2fr;
+    display: grid;
+    column-gap: 30px;
+    align-items: center;
 }

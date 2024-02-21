@@ -9,6 +9,7 @@ const Header = () => {
             <div className={s.wrapper}>
             <Logo>logo</Logo>
             <Menu>menu</Menu>
+            <div></div>
             <Buttons>buttons</Buttons>
             </div>
         </header>

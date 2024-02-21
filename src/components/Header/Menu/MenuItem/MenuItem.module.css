@@ -1,0 +1,18 @@
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: #BAE249;
+}
+.link:focus{
+    color: #688B05;
+}
+.link:focus-visible{
+    color: white;
+    border: 1px solid #83A440;
+    outline: none;
+}
+.link:active{
+    color: #688B05;
+}

@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
+import { BrowserRouter } from 'react-router-dom';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <Header>ffff</Header>
+      <Header></Header>
+      <Hero></Hero>
     </div>
+    </BrowserRouter>
   );
 }
 
