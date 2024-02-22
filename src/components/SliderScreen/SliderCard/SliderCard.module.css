@@ -1,0 +1,26 @@
+.container{
+    width: 255px;
+}
+.img{
+    width: 255px;
+    height: 180px;
+    vertical-align: top;
+}
+.cardInfo{
+    margin: 0;
+    border: 1px solid #0B1919;
+    padding: 16px;
+}
+.title{
+    font-size: 24px;
+    color: white;
+    line-height: 150%;
+    margin: 0;
+}
+.desc{
+    color: #899D9D;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}

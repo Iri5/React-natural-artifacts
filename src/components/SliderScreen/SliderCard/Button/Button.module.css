@@ -1,0 +1,37 @@
+.button{
+    background-color: transparent;
+    outline: none;
+    appearance: none;
+    border-style: solid;
+    border: 1px solid #BAE249;
+    color: #BAE249;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0 29px;
+    max-height: 45px;
+    height: 45px;
+
+}
+
+.button:hover{
+    color: #0B1919;
+    background-color: #BAE249;
+    cursor: pointer;
+}
+.button:disabled{
+    color:#899D9D;
+    border-color: #899D9D;
+}
+.button:active{
+    color: #0B1919;
+    background-color: #688B05;
+    border-color: #688B05;
+}
+.button:focus{
+    border-width: 4px;
+    border-style: double;
+}
+.button:focus-visible{
+    border-width: 4px;
+    border-style: double;
+}
